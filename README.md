@@ -1,2 +1,2 @@
-# belajar-netbeans-pemula-wkwk
-Yang mau source code untuk belajar nih source codenya wkwk
+# Sistem Penjualan Netbeans
+Yang mau source code untuk belajar nih source codenya
