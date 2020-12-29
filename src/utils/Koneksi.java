@@ -15,7 +15,7 @@ import java.sql.SQLException;
  */
 public class Koneksi {
     
-    private static Connection conn = null;
+    private static Connection conn;
     
     public static Connection connDB() {
         
@@ -30,11 +30,6 @@ public class Koneksi {
         } catch(SQLException e) {
             System.err.println(e.getMessage());
             System.exit(0);
-            conn = null;
-        } catch(Exception e) {
-            System.err.println(e.getMessage());
-            System.exit(0);
-            conn = null;
         }
         
         return conn;
